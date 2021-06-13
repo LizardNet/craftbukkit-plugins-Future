@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fd8b4fb3_92f1490f",
+        "filename": "pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 5
+      },
+      "writtenOn": "2021-06-13T09:07:19Z",
+      "side": 1,
+      "message": "ew xml",
+      "revId": "4e7f2d3b644af971b9ccb261e25462aef8bd69c0",
+      "serverId": "cf5d0eaf-4814-484b-b55f-41cd7f22928e",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aab6fb75_8cb4ba44",
+        "filename": "src/main/java/org/fastlizard4/git/craftbukkit_plugins/future/Future.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 5
+      },
+      "writtenOn": "2021-06-13T09:07:19Z",
+      "side": 1,
+      "message": "nit: .toString() is unnecessary in a string concatenation\n\nAlso, does our logging library not support this syntax?\n\n    getLogger().info(\"Successfully added recipe that produces: {}\", recipe.getResult());",
+      "range": {
+        "startLine": 53,
+        "startChar": 97,
+        "endLine": 53,
+        "endChar": 108
+      },
+      "revId": "4e7f2d3b644af971b9ccb261e25462aef8bd69c0",
+      "serverId": "cf5d0eaf-4814-484b-b55f-41cd7f22928e",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "86b9cc1a_f0d32e6a",
+        "filename": "src/main/java/org/fastlizard4/git/craftbukkit_plugins/future/Recipes.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 5
+      },
+      "writtenOn": "2021-06-13T09:07:19Z",
+      "side": 1,
+      "message": "ii captain",
+      "revId": "4e7f2d3b644af971b9ccb261e25462aef8bd69c0",
+      "serverId": "cf5d0eaf-4814-484b-b55f-41cd7f22928e",
+      "unresolved": true
+    }
+  ]
+}
