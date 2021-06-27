@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5cc7c684_7b191d54",
+        "filename": "src/main/java/org/fastlizard4/git/craftbukkit_plugins/future/MegaSprucePodzolListener.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-06-27T13:03:25Z",
+      "side": 1,
+      "message": "As discussed on TS3, original concern was that the Block/BlockState is not a live view and thus the Location is more helpful to retrieve the latest view, but not a concern anyway as the correct way to check if the tree has been grown or not is to look at the output of `structureGrowEvent.getBlocks()` - if it contains the saplings, then the grow failed; if it contains the whole tree (i.e., no saplings), then the grow succeeded.",
+      "parentUuid": "c080d99a_5fdcdda0",
+      "range": {
+        "startLine": 91,
+        "startChar": 0,
+        "endLine": 91,
+        "endChar": 35
+      },
+      "revId": "5896f8c10ea034fa4fbf5cdc2e7c902cb7ff5275",
+      "serverId": "cf5d0eaf-4814-484b-b55f-41cd7f22928e",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3396a119_9ee6c195",
         "filename": "src/main/java/org/fastlizard4/git/craftbukkit_plugins/future/MegaSprucePodzolListener.java",
         "patchSetId": 2
@@ -45,6 +69,30 @@
       "revId": "5896f8c10ea034fa4fbf5cdc2e7c902cb7ff5275",
       "serverId": "cf5d0eaf-4814-484b-b55f-41cd7f22928e",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0dd593ed_307cadc9",
+        "filename": "src/main/java/org/fastlizard4/git/craftbukkit_plugins/future/MegaSprucePodzolListener.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-06-27T13:03:25Z",
+      "side": 1,
+      "message": "Honestly, I already closed IntelliJ and I can\u0027t be bothered at this point. :P",
+      "parentUuid": "3396a119_9ee6c195",
+      "range": {
+        "startLine": 121,
+        "startChar": 12,
+        "endLine": 121,
+        "endChar": 41
+      },
+      "revId": "5896f8c10ea034fa4fbf5cdc2e7c902cb7ff5275",
+      "serverId": "cf5d0eaf-4814-484b-b55f-41cd7f22928e",
+      "unresolved": false
     }
   ]
 }
