@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "c9f1e452_8594a24f",
+        "filename": "src/main/java/org/fastlizard4/git/craftbukkit_plugins/future/Future.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-06-27T12:26:51Z",
+      "side": 1,
+      "message": "As mentioned on TS3, there is not; perhaps it\u0027s smart enough to know to automatically unregister the event when the plugin is unloaded?",
+      "parentUuid": "f37e4b6b_6cecc508",
+      "range": {
+        "startLine": 61,
+        "startChar": 39,
+        "endLine": 61,
+        "endChar": 53
+      },
+      "revId": "68e3341e9580b077cdd21c7067052bd6a1912978",
+      "serverId": "cf5d0eaf-4814-484b-b55f-41cd7f22928e",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e0479301_690e2dc1",
         "filename": "src/main/java/org/fastlizard4/git/craftbukkit_plugins/future/MegaSprucePodzolListener.java",
         "patchSetId": 1
@@ -45,6 +69,30 @@
       "revId": "68e3341e9580b077cdd21c7067052bd6a1912978",
       "serverId": "cf5d0eaf-4814-484b-b55f-41cd7f22928e",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "840033f6_6a31baa1",
+        "filename": "src/main/java/org/fastlizard4/git/craftbukkit_plugins/future/MegaSprucePodzolListener.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-06-27T12:26:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e0479301_690e2dc1",
+      "range": {
+        "startLine": 121,
+        "startChar": 45,
+        "endLine": 121,
+        "endChar": 46
+      },
+      "revId": "68e3341e9580b077cdd21c7067052bd6a1912978",
+      "serverId": "cf5d0eaf-4814-484b-b55f-41cd7f22928e",
+      "unresolved": false
     },
     {
       "key": {
