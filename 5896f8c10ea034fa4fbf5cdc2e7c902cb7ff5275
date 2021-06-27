@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c080d99a_5fdcdda0",
+        "filename": "src/main/java/org/fastlizard4/git/craftbukkit_plugins/future/MegaSprucePodzolListener.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 5
+      },
+      "writtenOn": "2021-06-27T12:35:31Z",
+      "side": 1,
+      "message": "We don\u0027t need to convert this one to a Location, we\u0027re just converting back to a Block later. The way I read it, roughly speaking, Location is to Block as double is to int.",
+      "range": {
+        "startLine": 91,
+        "startChar": 0,
+        "endLine": 91,
+        "endChar": 35
+      },
+      "revId": "5896f8c10ea034fa4fbf5cdc2e7c902cb7ff5275",
+      "serverId": "cf5d0eaf-4814-484b-b55f-41cd7f22928e",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3396a119_9ee6c195",
+        "filename": "src/main/java/org/fastlizard4/git/craftbukkit_plugins/future/MegaSprucePodzolListener.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 5
+      },
+      "writtenOn": "2021-06-27T12:35:31Z",
+      "side": 1,
+      "message": "/me dangles an optimization suggestively\n\nyou sure you don\u0027t want to eliminate this intermediate set?",
+      "range": {
+        "startLine": 121,
+        "startChar": 12,
+        "endLine": 121,
+        "endChar": 41
+      },
+      "revId": "5896f8c10ea034fa4fbf5cdc2e7c902cb7ff5275",
+      "serverId": "cf5d0eaf-4814-484b-b55f-41cd7f22928e",
+      "unresolved": true
+    }
+  ]
+}
