@@ -57,6 +57,9 @@ public class Future extends JavaPlugin {
             }
         }
 
+        getLogger().info("Enabling MegaSprucePodzolListener....");
+        getServer().getPluginManager().registerEvents(new MegaSprucePodzolListener(getLogger()), this);
+
         getLogger().info("Future enabled!");
     }
 
