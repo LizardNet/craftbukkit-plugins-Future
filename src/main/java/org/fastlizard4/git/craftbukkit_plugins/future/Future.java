@@ -40,12 +40,22 @@ import java.util.stream.Collectors;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.Recipe;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.scheduler.BukkitScheduler;
+
+import org.fastlizard4.git.craftbukkit_plugins.future.helpers.Scheduler;
 
 @SuppressWarnings("unused")
 public class Future extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        Scheduler scheduler =
+                (task, delay) -> {
+                    BukkitScheduler bukkitScheduler = getServer().getScheduler();
+                    int taskId = bukkitScheduler.scheduleSyncDelayedTask(Future.this, task, delay);
+                    return () -> bukkitScheduler.cancelTask(taskId);
+                };
+
         getLogger().info("Enabling future....");
 
         for (Recipe recipe : Recipes.getRecipes()) {
@@ -56,6 +66,9 @@ public class Future extends JavaPlugin {
                 getPluginLoader().disablePlugin(this);
             }
         }
+
+        getLogger().info("Enabling MegaSprucePodzolListener....");
+        getServer().getPluginManager().registerEvents(new MegaSprucePodzolListener(getLogger(), scheduler), this);
 
         getLogger().info("Future enabled!");
     }
